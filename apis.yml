@@ -1,8 +1,28 @@
 aid: tinfoil-security
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tinfoil-security.png
 name: Tinfoil Security
-description: Tinfoil Security is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Tinfoil Security was a web application and API security scanning company that
+  provided automated dynamic (DAST) vulnerability testing for web apps and REST
+  APIs. It was acquired by Synopsys in 2016 and folded into the Synopsys Software
+  Integrity Group, which later became Black Duck. As of this enrichment pass its
+  domain tinfoilsecurity.com no longer serves an independent site — every path
+  returns an HTTP 302 redirect to blackduck.com — and there is no standalone
+  Tinfoil Security developer portal, API documentation, OpenAPI definition,
+  package registry presence, or /.well-known discovery surface remaining. This
+  profile was surfaced as a 500 Global portfolio company and is retained as an
+  acquired/defunct lead with no live API surface to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/tinfoil-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,17 +30,24 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-redirects-to: https://www.blackduck.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
-maintainers:
-- FN: Kin Lane
-  email: kin@apievangelist.com
-- FN: APIs.json
-  email: info@apis.io
+- Security
+- Application Security
+- Vulnerability Scanning
+- DAST
+- API Security
+- Acquired
 common:
 - type: Website
   url: https://tinfoilsecurity.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
