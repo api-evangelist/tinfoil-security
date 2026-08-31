@@ -55,6 +55,11 @@ tags:
 - API Security
 - Acquired
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/synopsys/
+  name: Synopsys
+  x-relationship: acquired
+  x-evidence: "It was acquired by Synopsys in 2016 and folded into the Synopsys Software Integrity Group, which later became Black Duck."
 - type: Website
   url: https://tinfoilsecurity.com
 x-enrichment:
