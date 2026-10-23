@@ -27,6 +27,24 @@ edges:
     year: '2011'
   detected_by: sweep-accelerator-portfolios.py
   first_seen: '2026-10-21'
+- partner_name: Jenkins (own)
+  partner: jenkins
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://plugins.jenkins.io/tinfoil-scan/
+  mirror_of: jenkins/integrations/jenkins-integration-edges.yml
+  apps:
+  - Tinfoil Security
+  - Tinfoil Security (tinfoil-scan)
+  listing_count: 1
+  detected: '2026-10-22'
+  detected_by: mirror-platform-listings.py
+  category: Jenkins plugin
 generated: '2026-10-21'
 method: searched
 source:
@@ -41,3 +59,4 @@ checked:
 - https://www.antler.co/portfolio
 - https://www.techstars.com/portfolio
 - https://www.ycombinator.com/companies
+- jenkins/integrations/jenkins-integration-edges.yml
